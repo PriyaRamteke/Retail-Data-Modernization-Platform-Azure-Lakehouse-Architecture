@@ -1,0 +1,17 @@
+{
+	"name": "LS_SQL_RETAIL",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "retail-servername.database.windows.net",
+			"database": "ecomerce-db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "priya",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkRBVEFGQUNUT1JZQDI1ODhBRTc5LTU1RTktNDRCRS05NTU1LUNGMjUzQTZBMjM5N18xYmZlZThhMC1hODYwLTQ4MTUtOWE2My0wYTBmOTk1ZGRjYjMiDQp9"
+		}
+	}
+}

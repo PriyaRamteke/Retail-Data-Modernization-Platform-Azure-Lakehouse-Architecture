@@ -1,0 +1,17 @@
+{
+	"name": "DS_METADATA",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_SQL_RETAIL",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "Pipeline_Metadata"
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
