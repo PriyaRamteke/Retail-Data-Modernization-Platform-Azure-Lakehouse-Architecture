@@ -1,2 +1,0 @@
-# Retail-Data-Modernization-Platform-Azure-Lakehouse-Architecture
-Built a cloud-based retail data platform using Azure Data Factory, ADLS Gen2, Databricks, PySpark, Delta Lake, Synapse Analytics, and Power BI. Designed a Medallion architecture to ingest data from Azure SQL and REST APIs, perform scalable transformations, and create analytics-ready datasets for sales, customer, and product insights.
